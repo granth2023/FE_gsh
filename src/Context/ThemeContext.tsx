@@ -5,3 +5,4 @@ const ThemeContext = createContext({
     toggleDarkMode: () => {}, 
 });
 
+export const useTheme = () => useContext(ThemeContext);
