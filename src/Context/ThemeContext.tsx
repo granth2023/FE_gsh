@@ -19,4 +19,10 @@ export const ThemeProvider: React.FC = ({ children }) => {
         setDarkMode(!darkMode);
         localStorage.setItem('darkMode', String(!darkMode));
     };
-}
+
+    return ( 
+        <ThemeContext.Provider value= {{ darkMode, toggleDarkMode }} />
+            {children}
+        </ThemeContext.Provider>
+    );
+};
