@@ -7,4 +7,8 @@ export default page({
       welcomeMessage: 'Explore',
     };
   }, 
+
+  render({ data }){ 
+    
+  }
 })
