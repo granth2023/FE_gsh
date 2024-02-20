@@ -12,6 +12,7 @@ export default page({
     return ( 
       <main> 
         <h1>{data.pageTitle}</h1>
+        <p>{data.welcomeMessage}</p>
 
       </main>
     )
