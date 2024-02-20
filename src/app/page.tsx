@@ -9,6 +9,11 @@ export default page({
   }, 
 
   render({ data }){ 
-    
+    return ( 
+      <main> 
+        <h1>{data.pageTitle}</h1>
+
+      </main>
+    )
   }
 })
